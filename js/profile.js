@@ -1,0 +1,9 @@
+document.getElementById("Name").innerText=doc.Name;
+document.getElementById("Email").innerText =Email;
+document.getElementById("Phone").innerText = doc.Phone;
+document.getElementById("Gender").innerText = doc.Gender;
+document.getElementById("Language").innerText = doc.Language; 
+document.getElementById("State").innerText = doc.State;
+document.getElementById("City").innerText = doc.City;
+document.getElementById("Postal").innerText = doc.Postal;
+document.getElementById("About").innerText = doc.About;

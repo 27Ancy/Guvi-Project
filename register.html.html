@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>RegistrationForm</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'><link rel="stylesheet" href="./css.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Registration</h1>
+    <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+      <div class="col-md-4">
+        <label for="validationDefault01" class="form-label">Name</label>
+        <input type="text" class="form-control" id="Name" value="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+        
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="Password" required>
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Phone Number:</label>
+        <input type="text" class="form-control" id="City" required>
+      </div>
+        <div class="col-md-6">
+          <label for="inputGender" class="form-label">Gender            </label>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option value disabled selected>Gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Other</option>
+            </select>
+        </div>
+          <div class="col-md-6">
+          <label for="language">language</label>
+          
+            <select name="language" id="language">
+              <option value="">Select language</option>
+              <option value="English">English</option>
+              <option value="Tamil">Tamil</option>
+              <option value="Hindi">Hindi</option>
+              <option value="Malayalam">Malayalam</option>
+              <option value="Russian">Russian</option>
+            </select>
+            </div>
+            <div class="col-md-4">
+              <label for="State">State:</label>
+          <input type="text" name="State" id="zipcode">
+          <div class="col-md-4">
+            <label for="City">City:</label>
+        <input type="Text" name="City" id="zipcode">
+           
+             
+            
+            </div>
+          <div class="col-md-6">
+          <label for="zipcode">Postal Code:</label>
+          <input type="number" name="zipcode" id="zipcode" required>
+          </div>
+        <div class="col-md-6">
+          <label for="about">About:</label>
+          <input type="Text" name="About" id="About" required>
+          
+          
+        </div>
+        <div class="col-md-6">
+          <td colspan="4"><input type="submit" class="submit" value="Register" /></td>
+        </div>
+        
+    </form>
+  </div>
+</body>
